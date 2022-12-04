@@ -12,6 +12,15 @@ body {
   background: black;
 }
 
+.text-primary {
+  color: #666600;
+}
+.bg-primary {
+  background: #666600;
+}
+.bg-secondary {
+  background: #999966;
+}
 .gradiant-bg {
   background: #666600; /* fallback for old browsers */
   background: -webkit-linear-gradient(

@@ -1,11 +1,11 @@
 import React from "react";
-import CopyButton from "../src/Components/CopyButton";
+import PostSinglePage from "../src/Components/PerCatagoriesSection/PostSinglePage";
 
 const test = () => {
   return (
-    <>
-      <CopyButton />
-    </>
+    <div className="md:px-36 px-2">
+      <PostSinglePage />
+    </div>
   );
 };
 

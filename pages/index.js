@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       {/* end header serach bar */}
       {/* -----------start post------------- */}
-      <div className="px-16 py-16 grid md:grid-cols-3 gap-5 grid-cols-1">
+      <div className="px-2 md:px-28 py-16 grid md:grid-cols-3 gap-5 grid-cols-1">
         <PostCardSinglePage />
         <PostCardSinglePage />
         <PostCardSinglePage />
