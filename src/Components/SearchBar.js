@@ -6,7 +6,7 @@ const SearchBar = () => {
       <div className="form-control">
         <div className="input-group input-group-lg">
           <select
-            className="select select-bordered  input-lg text-xl w-44 max-w-md"
+            className="select select-bordered  md:input-lg text-xs md:text-xl w-7 md:w-44 max-w-md"
             style={{ outline: "none" }}
           >
             <option disabled selected>
@@ -19,10 +19,10 @@ const SearchBar = () => {
           <input
             type="text"
             placeholder="Search…"
-            className="input input-bordered w-72 max-w-lg input-lg "
+            className="input input-bordered w-full md:w-72 max-w-lg md:input-lg text-xs md:text-xl"
             style={{ outline: "none" }}
           />
-          <button className="btn btn-square btn-lg">
+          <button className="btn btn-square md:btn-lg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
